@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aquarium ESM</title>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        border: 0px;
+        padding: 0px;
+        margin: 0px;
+        background-color: black;
+        font-family: sans-serif;
+        overflow: hidden;
+        color: #fff;
+      }
+      canvas {
+        background-color: gray;
+      }
+      #viewContainer {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="viewContainer">
+      <canvas
+        id="canvas"
+        width="1024"
+        height="1024"
+        style="width: 100%; height: 100%"
+      />
+    </div>
+  </body>
+  <script type="module" src="./main.js"></script>
+</html>
